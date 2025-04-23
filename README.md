@@ -1,4 +1,6 @@
-# VGG16 复现 - PaddlePaddle 实现（支持 CIFAR10 / 自定义数据集）
+# VGG16 复现 - PaddlePaddle 实现
+
+GitHub: https://github.com/geyuxu/paddle_recurrence_vgg16
 
 本项目使用 **PaddlePaddle** 深度学习框架，**完整复现经典卷积神经网络 VGG16** 架构，支持在 CIFAR10、ImageNet 以及自定义数据集上进行训练与评估。
 
@@ -98,18 +100,8 @@ VGG16 是由 Oxford VGG 团队提出的经典 CNN 架构，特点是使用多个
 Validation Accuracy: 0.6324
 ```
 
----
-
-## 📌 TODO（可选扩展）
-
-- [ ] 加入 TensorBoard 可视化
-- [ ] 加入 EarlyStopping / 学习率调度器
-- [ ] 支持多GPU训练（DataParallel）
-- [ ] 更丰富的数据增强
 
 ---
-
-## 🧠 作者 
 
 作者：Yuxu Ge（葛于旭）  
 框架：基于 PaddlePaddle 2.x  
