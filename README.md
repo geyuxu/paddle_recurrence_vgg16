@@ -16,7 +16,7 @@ GitHub: https://github.com/geyuxu/paddle_recurrence_vgg16
 ## 📦 项目结构
 
 ```
-vgg16_cifar10_flexible/
+paddle_recurrence_vgg16/
 ├── model.py          # VGG16 模型定义
 ├── dataset.py        # 数据加载与 transform 定义
 ├── train.py          # 通用训练脚本（支持 CLI 参数）
